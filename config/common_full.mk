@@ -35,3 +35,14 @@ PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontLatoOverlay \
     FontRubikOverlay
+
+# Clocks
+PRODUCT_PACKAGES += \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Flex \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather
