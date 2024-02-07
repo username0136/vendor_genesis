@@ -315,6 +315,10 @@
 
         <!-- Pixel Launcher -->
         <item>launcher/ENABLE_SMARTSPACE_ENHANCED=true</item>
+        <item>launcher/enable_quick_launch_v3_aa=true</item>
+        <item>launcher/enable_quick_launch_v3_qsb=true</item>
+        <item>launcher/gboard_update_enter_key=true</item>
+        <item>launcher/GBOARD_UPDATE_ENTER_KEY=true</item>
     </string-array>
 
     <!-- Name of a font family to use for body text. -->
