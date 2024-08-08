@@ -251,9 +251,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/crowdin/overlay
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/lineage/build/target/product/security/lineage
 
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 include vendor/lineage/config/version.mk
-
--include vendor/lineage-priv/keys/keys.mk
+include vendor/lineage-priv/keys/keys.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
