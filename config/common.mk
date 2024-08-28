@@ -128,7 +128,7 @@ $(call enforce-product-packages-exist-internal,$(wildcard device/*/$(LINEAGE_BUI
 endif
 
 # Bootanimation
-include vendor/aosp/config/bootanimation.mk
+include vendor/lineage/config/bootanimation.mk
 
 # Build Manifest
 PRODUCT_PACKAGES += \
